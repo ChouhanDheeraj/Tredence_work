@@ -50,7 +50,7 @@ resource_urls = {
 }
 
 
-# Save each resource DataFrame to a separate sheet
+
 with pd.ExcelWriter("FHIR_All_Resources_Schema_1.xlsx", engine="openpyxl") as writer:
     for name, url in resource_urls.items():
         print(f"🔍 Scraping {name}...")
