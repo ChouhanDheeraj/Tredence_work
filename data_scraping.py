@@ -32,8 +32,8 @@ def scrape_fhir_resource(url, resource_name):
     return pd.DataFrame(data)
 
 # Example usage
-patient_url = "https://www.hl7.org/fhir/patient.html"
-df_patient = scrape_fhir_resource(patient_url, "Patient")
+# patient_url = "https://www.hl7.org/fhir/patient.html"
+# df_patient = scrape_fhir_resource(patient_url, "Patient")
 
 # Show the top 5 rows
 #print(df_patient.head())
