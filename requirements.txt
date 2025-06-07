@@ -1,0 +1,5 @@
+pandas
+Faker
+beautifulsoup4
+openpyxl
+great-expectations
